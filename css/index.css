@@ -95,6 +95,11 @@ p {
 	
 }
 
+.home-navigation :first-child {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
 .lambda-black {
     margin-left: auto;
     padding-left: auto;
@@ -202,6 +207,7 @@ p {
     margin-right: auto;
     margin-top: 25px;
     margin-bottom: 0px;
+   
 }
 
 .jumbo-about {
@@ -209,6 +215,7 @@ p {
     margin-right: auto;
     margin-top: 25px;
     margin-bottom: 0px;
+
 }
 
 
