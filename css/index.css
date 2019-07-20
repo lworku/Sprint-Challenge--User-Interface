@@ -71,12 +71,41 @@ p {
     margin: 0 auto;
 }
 
+.home-navigation {
+	display: flex;
+	justify-content: space-evenly;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    margin: auto 100px;
+  }
+
+
+.home-navigation a { 
+	margin: 0px 10px;
+	border: red solid 2px; 
+	padding: 20px;
+	border-radius: 5px;
+	color: black;
+	text-decoration: none;
+	background:white;
+	
+}
+
+.lambda-black {
+    margin-left: auto;
+    padding-left: auto;
+}
+
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-top: 20px;
 }
 
 .top-content .text-container {
@@ -104,12 +133,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
