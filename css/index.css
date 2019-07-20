@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -192,6 +192,62 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.jumbo-about{
+    width: 98%;
+}
+
+.about-break {
+    border: 1px dashed black;
+}
+
+.about-box{
+	background: none;
+	margin: 30px auto;
+    border-bottom: 1px dashed black; 
+	padding: none;
+    width: 47%;	
+    height: 450px;	
+	
+}
+
+.about-box img{
+    width:100%;
+}
+
+.about-box p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-box h2{
+    margin-top: 20px;
+}
+
+.about-middle-content{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+
+.learn-more {
+	display: flex;
+	justify-content: center;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 150px;
+	padding: none;
+	margin: 20px 20px 20px 0;
+	height: 40px;
+	font-size: 16px;
+	background-color: white;	
+}
+
+.about-bottom-content{
+    margin-top: 30px;
+    margin-bottom: 35px;
 }
 
 footer {
