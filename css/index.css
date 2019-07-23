@@ -21,7 +21,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -29,7 +30,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    
 }
 ol, ul {
 	list-style: none;
@@ -53,6 +55,8 @@ table {
 
 html, body {
     height: 100%;
+    /* width: 960px; */
+    margin: auto;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -71,12 +75,48 @@ p {
     margin: 0 auto;
 }
 
+
+
+.home-navigation {
+	display: flex;
+	justify-content: space-evenly;
+	justify-content: center;
+	align-items: baseline;
+	align-content: center;
+    margin: auto 100px;
+  }
+
+
+.home-navigation a { 
+	margin: 0px 15px;
+	/* border: red solid 2px;  */
+	padding: 20px;
+	border-radius: 5px;
+	color: black;
+	text-decoration: none;
+	background:white;
+	
+}
+
+.home-navigation :first-child {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.lambda-black {
+    margin-left: auto;
+    padding-left: auto;
+}
+
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-top: 20px;
 }
 
 .top-content .text-container {
@@ -104,12 +144,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -124,6 +203,81 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.jumbo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 0px;
+   
+}
+
+.jumbo-about {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 0px;
+
+}
+
+
+.about-break {
+    border: 1px dashed black;
+    margin-top: 30px;
+}
+
+.about-top-content{
+    margin: 25px auto;
+    width: 95%;
+}
+
+.about-box{
+	background: none;
+	margin: 30px auto;
+    border-bottom: 1px dashed black; 
+	padding: none;
+    width: 47%;	
+    height: 450px;	
+	
+}
+
+/* .about-box img{
+    width:100%;
+} */
+
+.about-box p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-box h2{
+    margin-top: 20px;
+}
+
+.about-middle-content{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+
+.learn-more {
+	display: flex;
+	justify-content: center;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 150px;
+	padding: none;
+	margin: 20px 20px 20px 0;
+	height: 40px;
+	font-size: 16px;
+	background-color: white;	
+}
+
+.about-bottom-content{
+    margin: 30px auto;
+    width: 95%
 }
 
 footer {
